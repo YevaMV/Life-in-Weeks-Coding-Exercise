@@ -1,1 +1,6 @@
+function lifeInWeeks(age) {
+    
+}
+
+lifeInWeeks( )
 
