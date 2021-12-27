@@ -1,6 +1,10 @@
 function lifeInWeeks(age) {
-    
+    years = 90 - age;
+    let days = years * 365;
+    let weeks = years * 52;
+    let months = years * 12;
+    return "You have " + days + " days " + weeks + " weeks, and " + months + "months left." 
 }
 
-lifeInWeeks( )
+lifeInWeeks(56)
 
